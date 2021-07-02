@@ -1,5 +1,7 @@
 .intro{
-  width: 690px;
   padding-top: 92px;
-  margin-left: 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:flex-start;
 }

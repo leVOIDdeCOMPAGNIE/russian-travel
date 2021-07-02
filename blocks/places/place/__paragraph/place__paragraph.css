@@ -1,0 +1,11 @@
+.place__paragraph{
+  width: 484px;
+  font-family: Inter-Regular, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  grid-column: 2/3;
+  grid-row: 2/5;
+}
