@@ -1,0 +1,16 @@
+.cover__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 740px;
+  background-image: url(../../../vendor/images/cover-trains.jpg);
+}
+
+.cover__item::before{
+  opacity: 0;
+}
+
+.cover__item:hover::before{
+  opacity: 0,8;
+}
