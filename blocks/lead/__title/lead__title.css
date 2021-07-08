@@ -1,5 +1,5 @@
 .lead__title{
-  width: 720px;
+  max-width: 720px;
   margin: 0 auto;
   font-family: Inter-Bold, sans-serif;
   font-style: normal;
