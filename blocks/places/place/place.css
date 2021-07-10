@@ -1,10 +1,29 @@
 .place{
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 48px 40px;
   padding-bottom: 80px;
 }
 
 .place:last-of-type{
   padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place{
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place{
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .place{
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
 }

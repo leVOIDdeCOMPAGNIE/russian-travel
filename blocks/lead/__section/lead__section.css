@@ -3,3 +3,10 @@
   margin: 0 auto;
   padding-top: 56px;
 }
+
+@media screen and (min-width: 1024px) {
+  .lead__section{
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}

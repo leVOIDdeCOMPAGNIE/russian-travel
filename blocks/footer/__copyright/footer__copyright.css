@@ -1,10 +1,20 @@
 .footer__copyright{
+  width: fit-content;
   font-family: Inter-Regular, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  text-align: right;
   color: #FFFFFF;
   margin: 0;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 751px) {
+  .footer__copyright{
+    align-self: auto;
+    padding-top: 48px;
+    font-size: 14px;
+    line-height: 14px;
+  }
 }

@@ -2,3 +2,23 @@
   max-width: 984px;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 1024px) {
+  .intro__section{
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__section{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__section{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

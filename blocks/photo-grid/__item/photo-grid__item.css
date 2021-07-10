@@ -1,3 +1,13 @@
 .photo-grid__item{
+  width: 100%;
+}
 
+@media screen and (max-width: 320px) {
+  .photo-grid__item{
+    padding-bottom: 12px;
+  }
+
+  .photo-grid__item:last-of-type{
+    padding-bottom: 0;
+  }
 }

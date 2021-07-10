@@ -11,3 +11,25 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+@media screen and (min-width: 768px) {
+  .lead__subtitle {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .lead__subtitle {
+    box-sizing: border-box;
+    max-width: 350px;
+    padding: 0 16px;
+  }
+}
