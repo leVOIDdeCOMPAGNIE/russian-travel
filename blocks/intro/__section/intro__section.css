@@ -1,24 +1,30 @@
 .intro__section{
   max-width: 984px;
   margin: 0 auto;
+  padding: 92px 48px 0;
 }
 
 @media screen and (min-width: 1024px) {
   .intro__section{
-    padding-left: 48px;
+    padding: 92px 48px 0;
   }
+}
+
+@media screen and (min-height: 968px) {
+  .intro__section{
+    padding: 92px 24px 0;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
   .intro__section{
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 92px 24px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__section{
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 92px 16px 0;
   }
 }

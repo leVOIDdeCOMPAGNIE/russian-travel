@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .header__section{
     padding-left: 24px;
     padding-right: 24px;

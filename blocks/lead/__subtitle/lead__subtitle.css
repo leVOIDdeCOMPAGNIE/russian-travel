@@ -3,7 +3,7 @@
   margin: 0 auto;
   margin-top: 32px;
   margin-bottom: 64px;
-  font-family: Inter-Regular, sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 700px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;

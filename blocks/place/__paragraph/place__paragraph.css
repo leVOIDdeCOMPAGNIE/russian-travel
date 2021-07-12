@@ -1,6 +1,6 @@
 .place__paragraph{
   margin: 0;
-  font-family: Inter-Regular, sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -11,5 +11,6 @@
 @media screen and (max-width: 768px) {
   .place__paragraph{
     font-size: 16px;
+    max-width: inherit;
   }
 }
