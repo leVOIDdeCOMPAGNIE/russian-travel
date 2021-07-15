@@ -1,0 +1,23 @@
+.page__section_type_places{
+  max-width: 984px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__section_type_places{
+    max-width: 100%;
+    padding: 0 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__section_type_places{
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .page__section_type_places{
+    padding: 0;
+  }
+}

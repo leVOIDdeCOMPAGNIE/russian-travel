@@ -1,0 +1,15 @@
+.page__section_type_lead{
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__section_type_lead{
+    padding-top: 48px ;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__section_type_lead{
+    padding: 48px 0 0 0;
+  }
+}

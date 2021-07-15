@@ -13,15 +13,17 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 751px) {
+.footer__link:hover{
+  color: #d6d6d6;
+  transition: color .3s;
+}
+
+
+@media screen and (max-width: 510px) {
   .footer__link{
-    padding-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
   }
 
-  .footer__link:last-of-type{
-    padding-bottom: 0;
-  }
 }
 

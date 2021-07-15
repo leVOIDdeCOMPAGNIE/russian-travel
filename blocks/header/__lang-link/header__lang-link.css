@@ -7,11 +7,11 @@
   text-align: right;
   text-decoration: none;
   color: #ffffff;
-  margin-right: 18px;
 }
 
-.header__lang-link:last-of-type{
-  margin-right: 0px;
+.header__lang-link:hover{
+  color: #d6d6d6;
+  transition: color .3s;
 }
 
 @media screen and (max-width: 450px) {

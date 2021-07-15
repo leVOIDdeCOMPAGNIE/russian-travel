@@ -1,0 +1,9 @@
+.page__section_type_narrow{
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__section_type_narrow{
+    padding: 0 48px;
+  }
+}

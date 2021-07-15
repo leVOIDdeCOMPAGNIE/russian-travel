@@ -1,0 +1,16 @@
+.page__section_type_grid{
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__section_type_grid{
+    padding: 88px 24px 88px 24px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .page__section_type_grid{
+    padding: 64px 16px 64px 16px;
+  }
+}

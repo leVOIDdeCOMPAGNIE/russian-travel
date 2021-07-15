@@ -6,11 +6,23 @@
   font-size: 18px;
   line-height: 163%;
   color: #FFFFFF;
+  margin-bottom: 26px;
+}
+
+.place__paragraph:last-of-type{
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph{
     font-size: 16px;
     max-width: inherit;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .place__paragraph{
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

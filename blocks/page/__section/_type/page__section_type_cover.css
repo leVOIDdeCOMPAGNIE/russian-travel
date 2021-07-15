@@ -1,0 +1,23 @@
+.page__section_type_cover{
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__section_type_cover{
+    padding: 92px 0 92px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__section_type_cover{
+    padding: 90px 0 88px 0;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .page__section_type_cover{
+    padding: 66px 0 64px 0;
+  }
+}
