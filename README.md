@@ -1,23 +1,11 @@
 # Проект: Путешествие по России
+Those website will provide you with all information that needed to have amathing trip across the Russia. You welcome!
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+https://levoiddecompagnie.github.io/russian-travel/
 
-**Интро**
+HTML5, CSS3;
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+Website maded by Yandex Praktikum student, checkout my Github page: https://github.com/leVOIDdeCOMPAGNIE
 
-**Figma**
+Yandex Praktikum page: https://praktikum.yandex.ru/
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
