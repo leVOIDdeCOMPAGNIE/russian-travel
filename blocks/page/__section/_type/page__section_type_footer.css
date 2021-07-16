@@ -6,9 +6,14 @@
   align-items: baseline;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .page__section_type_footer{
     padding: 0 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__section_type_footer{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
